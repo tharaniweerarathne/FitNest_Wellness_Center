@@ -26,7 +26,7 @@ Staff/Trainer	<ul><li>👤 Update personal profile (Update)</li><li>📋 View cl
 | **Reviews Section** | ![Reviews](Screenshots_application/feedback.png) |
 | **Blog Section** | ![Blog](Screenshots_application/blog.png) <br>![service](Screenshots_application/blog1.png) |
 | **Footer** | ![Footer](Screenshots_application/footer.png) |
-| **Example of the one blog** | ![Homepage](Screenshots_application/footer.png) |
+
 
 <br><br>
 
