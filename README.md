@@ -28,11 +28,16 @@ Staff/Trainer	<ul><li>👤 Update personal profile (Update)</li><li>📋 View cl
 | **Footer** | ![Footer](Screenshots_application/footer.png) |
 | **Example of the one blog** | ![Homepage](Screenshots_application/footer.png) |
 
+<br><br>
+
+
 ### Blog Section on the Homepage
 
 Here is an example of how the blog section appears within the homepage:
 
 ![Blog section example](Screenshots_application/blogs_preview.png)
+
+<br><br>
 
 ### SignIn and SignUp pages 
 
@@ -40,6 +45,8 @@ Here is an example of how the blog section appears within the homepage:
 |---------|---------|
 | **SignIn Page** | ![Signin](Screenshots_application/login.png) |
 | **SignUp Page** | ![about us ](Screenshots_application/signUp.png)<br>![service](Screenshots_application/signUp1.png) |
+
+<br><br>
 
 ### Customer Dashboard 
 
@@ -52,21 +59,25 @@ Here is an example of how the blog section appears within the homepage:
 | **Add Reviews** | ![Join Membership ](Screenshots_application/reviews.png) <br>![service](Screenshots_application/reviews1.png) |
 | **Edit Profile** | ![edit profile](Screenshots_application/edit_profile.png) |
 
+<br><br>
+
 ### Admin Dashboard 
 
 | Feature | Preview |
 |---------|---------|
-| **Admin Dashboard** |**My Classes** ![Customer Dashboard](Screenshots_application/admin_dashboard.png)<br>**All Bookings**![service](Screenshots_application/admin_dash2.png)<br>**Memberships**![service](Screenshots_application/admin_dash2.png) |
-| **Manage Profiles** | ![Classes ](Screenshots_application/manage_profile.png)<br>![service](Screenshots_application/manage_profile2.png) |
-| **Manage Profiles** | ![Classes ](Screenshots_application/insert_Service.png)<br>![service](Screenshots_application/insertService2.png)<br>![service](Screenshots_application/insertService3.png)<br>![service](Screenshots_application/insertService4.png) |
-| **Add Trainer** | ![Join Membership ](Screenshots_application/add_trainer.png)<br>![service](Screenshots_application/add_trainer1.png) |
-| **Reply Reviews By Admin** | ![Join Membership ](Screenshots_application/feedback_reply.png) |
+| **Admin Dashboard** |**All Bookings**![service](Screenshots_application/admin_dash2.png)<br>**Memberships**![service](Screenshots_application/admin_dash2.png) |
+| **Manage Profiles (CRUD)** | ![Classes ](Screenshots_application/manage_profile.png)<br>![service](Screenshots_application/manage_profile2.png) |
+| **Insert Services (CRUD)** | ![Classes ](Screenshots_application/insert_Service.png)<br>![service](Screenshots_application/insertService2.png)<br>![service](Screenshots_application/insertService3.png)<br>![service](Screenshots_application/insertService4.png) |
+| **Add Trainer (CRUD)** | ![Join Membership ](Screenshots_application/add_trainer.png)<br>![service](Screenshots_application/add_trainer1.png) |
+| **Reply Reviews By Admin (CRUD)** | ![Join Membership ](Screenshots_application/feedback_reply.png) |
+
+<br><br>
 
 ### Staff Dashboard
 | Feature | Preview |
 |---------|---------|
-| **Staff Dashboard** |**My Classes** ![Customer Dashboard](Screenshots_application/staff_2.png)<br>**Memberships**![service](Screenshots_application/staff3.png) |
-| **Reply Reviews By Staff** | ![Join Membership ](Screenshots_application/staff_reply.png) |
+| **Staff Dashboard** |**My Classes** ![Customer Dashboard](Screenshots_application/staff.png)<br>**All Bookings** ![Customer Dashboard](Screenshots_application/staff_2.png)<br>**Memberships**![service](Screenshots_application/staff3.png) |
+| **Reply Reviews By Staff (CRUD)** | ![Join Membership ](Screenshots_application/staff_reply.png) |
 
 ## 🛠️ Technologies Used
 
