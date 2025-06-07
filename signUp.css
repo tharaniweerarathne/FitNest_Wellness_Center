@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('Images/membership.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    background: inherit;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(10px);
+    z-index: -1;
+    transform: translateZ(0);
+    margin: 0;
+    padding: 0;
+}
+
+.login-box {
+    width: 700px;
+    padding: 60px;
+    background: rgba(0, 0, 0, 0.749);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 900px) {
+    .login-box {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 90%;
+    }
+}
+
+.login-box h1 {
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.login-box p {
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.user-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.user-box input {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    color: #fff;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    outline: none;
+    transition: 0.3s;
+}
+
+.user-box input:focus {
+    border-bottom: 1px solid #D91656;
+}
+
+.user-box label {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+    top: -15px;
+    left: 0;
+    color: #D91656;
+    font-size: 14px;
+}
+
+.user-box .input-hint {
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    display: none;
+}
+
+.user-box input:focus ~ .input-hint {
+    display: block;
+}
+
+.password-field {
+    position: relative;
+}
+
+.password-field input {
+    padding-right: 40px !important;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    z-index: 10; 
+    pointer-events: auto; 
+}
+
+
+.password-toggle:hover {
+    color: #D91656;
+}
+
+.email-error {
+    color: rgb(224, 161, 161);
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+    visibility: hidden; 
+}
+
+.password-error {
+    color:  rgb(224, 161, 161);
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+    visibility: hidden; 
+}
+
+
+.select-box {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.select-box label {
+    display: block;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.select-box select {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    background: rgba(0, 0, 0, 0.016);
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    transition: 0.3s;
+}
+
+.select-box select:focus {
+    border-bottom: 1px solid #D91656;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.select-box::after {
+    content: '▼';
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    pointer-events: none;
+}
+
+.select-box select option {
+    color: white;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+}
+
+@-moz-document url-prefix() {
+    .select-box select {
+        color: white !important;
+        text-shadow: 0 0 0 white;
+    }
+    .select-box select option {
+        background: black;
+    }
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #D91656;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #D91656;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px #700c2d;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+}
+
+.signup-link a {
+    color: #D91656;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+    color: #fc2e72;
+}
+
+@media (max-width: 650px) {
+    .login-box {
+        width: 90%;
+        padding: 40px 30px;
+    }
+    
+    .login-box h1 {
+        font-size: 32px;
+    }
+    
+    .user-box input {
+        padding: 12px 10px;
+        font-size: 15px;
+    }
+    
+    .user-box label {
+        font-size: 15px;
+    }
+    
+    .password-toggle {
+        font-size: 18px;
+    }
+    
+    button {
+        padding: 12px;
+        font-size: 16px;
+    }
+    
+    .signup-link {
+        font-size: 14px;
+    }
+}
