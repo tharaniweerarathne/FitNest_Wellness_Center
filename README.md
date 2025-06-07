@@ -56,13 +56,17 @@ Here is an example of how the blog section appears within the homepage:
 
 | Feature | Preview |
 |---------|---------|
-| **Customer Dashboard** |**My Classes** ![Customer Dashboard](Screenshots_application/admin_dashboard.png)<br>**Memberships**![service](Screenshots_application/admin_dash2.png) |
+| **Admin Dashboard** |**My Classes** ![Customer Dashboard](Screenshots_application/admin_dashboard.png)<br>**All Bookings**![service](Screenshots_application/admin_dash2.png)<br>**Memberships**![service](Screenshots_application/admin_dash2.png) |
 | **Manage Profiles** | ![Classes ](Screenshots_application/manage_profile.png)<br>![service](Screenshots_application/manage_profile2.png) |
 | **Manage Profiles** | ![Classes ](Screenshots_application/insert_Service.png)<br>![service](Screenshots_application/insertService2.png)<br>![service](Screenshots_application/insertService3.png)<br>![service](Screenshots_application/insertService4.png) |
 | **Add Trainer** | ![Join Membership ](Screenshots_application/add_trainer.png)<br>![service](Screenshots_application/add_trainer1.png) |
 | **Reply Reviews By Admin** | ![Join Membership ](Screenshots_application/feedback_reply.png) |
-| **Edit Profile** | ![edit profile](Screenshots_application/edit_profile.png) |
 
+### Staff Dashboard
+| Feature | Preview |
+|---------|---------|
+| **Staff Dashboard** |**My Classes** ![Customer Dashboard](Screenshots_application/staff_2.png)<br>**Memberships**![service](Screenshots_application/staff3.png) |
+| **Reply Reviews By Staff** | ![Join Membership ](Screenshots_application/staff_reply.png) |
 
 ## 🛠️ Technologies Used
 
