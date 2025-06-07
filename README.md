@@ -86,3 +86,7 @@ Here is an example of how the blog section appears within the homepage:
 - MySQL (Database)
 - JavaScript (Interactive elements)
 
+  <br>
+
+<p align="center"> <strong>🌟 If you find this project useful, please consider starring the repository!</strong><br> <strong></p>
+
